@@ -157,11 +157,11 @@ h1 {
 
 /*desktop*/
 @media (max-width: 800px){
-    .header-section{
+    .container{
         justify-content: center;
         flex-wrap: wrap;
     }
-    .header-section div{
+    .container div{
         width: 80%;
     }
 }
