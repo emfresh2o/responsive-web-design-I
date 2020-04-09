@@ -57,7 +57,7 @@ table {
 
 html, body {
     height: 100%;
-    width: 100%
+    width: 100%;
     padding: 30px;
     align-content: center;
     font-family: 'Titillium Web', sans-serif;
@@ -118,12 +118,18 @@ h1 {
     margin: 25px auto;
 }
 
+.top_content {
+    display: flex;
+    width: 800px;
+    padding: 10px;
+}
+
 .bodytext {
     display: inline-block;
-    width: 360px;
+    justify-content: space-evenly;
+    width: 400px;
     margin: 0 auto;
-    margin-top: 20px;
-    padding 30px;
+    padding-top: 25px;
 }
   
 .bottom_content {
