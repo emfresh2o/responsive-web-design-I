@@ -115,30 +115,24 @@ h1 {
 .center_img {
     display: block;
     width: 800px;
-    margin: 25px auto;
+    margin: 10px auto;
 }
 
-.top_content {
+.top_container {
     display: flex;
     width: 800px;
+    margin: 0 auto;
     padding: 10px;
 }
-
-.bodytext {
-    display: inline-block;
-    justify-content: space-evenly;
-    width: 400px;
+  
+.bottom_container {
+    display: flex;
+    width: 800px;
     margin: 0 auto;
     padding-top: 25px;
 }
-  
-.bottom_content {
-    display: flex;
-    width: 800px;
-    padding-top: 25px;
-}
 
-.bottom_bodytext {
+.bodytext {
     display: inline-block;
     justify-content: space-around;
     margin: 0 auto;
@@ -148,7 +142,7 @@ h1 {
 .contact_info {
     border-top: 2px solid black;
     width: 800px;
-    margin-left: 0 auto;
+    margin: 0 auto;
     padding-top: 25px;
 }
   
