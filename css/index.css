@@ -108,9 +108,9 @@ h1 {
 }
 
 .content-divider {
-    border-top: 2px solid black;
+    border: 1px solid black;
     width: 800px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
    
 .center_img {
@@ -141,7 +141,6 @@ h1 {
 }
   
 .contact_info {
-    border-top: 2px solid black;
     width: 800px;
     margin: 0 auto;
     padding-top: 25px;
@@ -159,9 +158,9 @@ h1 {
 /*tablet*/
 @media (max-width: 799px){
     .container {
-        align-self: center;
-        padding-left: 30px;
-        width: 80%;
+        align-items: center;
+        padding-left: 150px;
+        width: 100%;
     }
     h1 {
         font-size: 50px;
@@ -172,7 +171,8 @@ h1 {
     .navigation {
         display: flex;
         flex-flow: column-reverse wrap;
-        width: 90%;
+        align-items: center;
+        width: 100%;
     }
     .navigation img {
         width: 30%;
@@ -204,12 +204,11 @@ h1 {
 /*mobile*/
 @media (max-width: 500px){
     .container {
-        align-self: center;
-        padding-left: 30px;
-        width: 80%;
+        width: 100%;
+        padding: unset;
     }
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
     .container img {
         display: none;
@@ -217,34 +216,33 @@ h1 {
     .bodytext {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        padding: 3px;
     }
     .navigation {
         display: flex;
         flex-flow: column-reverse wrap;
-        width: 90%;
+        width: 100%;
     }
     .navigation img {
         width: 30%;
         align-self: center;
     }
     .content-divider {
-        width: 50%;
+        width: 100%;
     }
 
     .top_container {
         display: flex;
-        width: 50%;
+        width: 100%;
     }
     
     .bottom_container {
         display: flex;
-        width: 50%
+        width: 100%
     }
 
     .center_img {
-        width: 50%
-
-    .contact_info {
-        width: 50%;
+        width: 100%
     }
 }
